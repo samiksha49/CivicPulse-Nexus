@@ -1,0 +1,17 @@
+**/target/
+**/node_modules/
+**/dist/
+.vscode/
+.idea/
+*.log
+.env
+.DS_Store
+**/venv/
+**/uploads/
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+.env.*
+!.env.example

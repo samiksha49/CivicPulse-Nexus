@@ -1,0 +1,18 @@
+### Register a grievance (replace citizenId with an existing citizen ID)
+POST http://localhost:8082/api/grievances
+Content-Type: application/json
+
+{
+  "citizenId": 1,
+  "category": "WATER_SUPPLY",
+  "severity": "HIGH",
+  "title": "No water supply for two days",
+  "description": "There has been no water supply in our street for two days.",
+  "location": "Ward 12, Demo Nagar"
+}
+
+### List grievances
+GET http://localhost:8082/api/grievances
+
+### Dashboard summary
+GET http://localhost:8082/api/dashboard/summary

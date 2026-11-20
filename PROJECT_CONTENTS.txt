@@ -1,0 +1,16 @@
+CIVICPULSE NEXUS - MILESTONE 1 PACKAGE
+--------------------------------------
+citizen-service/       Spring Boot Citizen microservice (8081)
+grievance-service/     Spring Boot Grievance microservice (8082)
+frontend/              React 19 + Vite user interface (5173)
+database/setup.sql     PostgreSQL role and database setup
+http-tests/            REST Client example requests
+README.md              Installation, configuration, run and API instructions
+MENTOR_DEMO_GUIDE.md   Presentation script, architecture and viva answers
+START_ALL_WINDOWS.bat  Launches all three app terminals (after PostgreSQL setup)
+RUN_WINDOWS.bat        Displays manual startup commands
+
+NOTE:
+The project source is prepared from the uploaded Milestone 1 trainer guide's stated scope and architecture.
+It has not been run against your local PostgreSQL installation in this session. Install/configure PostgreSQL,
+then start and verify the services before presenting it as a tested live demo.
